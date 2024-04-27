@@ -1,4 +1,4 @@
-package day02;
+package Homeworks.day02;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

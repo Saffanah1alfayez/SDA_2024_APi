@@ -1,4 +1,4 @@
-package day01;
+package Homeworks.day01;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

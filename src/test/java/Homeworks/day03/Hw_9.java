@@ -1,9 +1,8 @@
 package Homeworks.day03;
 
-import base_urls.petStoreBaseUrl;
+import base_urls.PetStoreBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -12,7 +11,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;
 
-public class Hw_9  extends petStoreBaseUrl {
+public class Hw_9  extends PetStoreBaseUrl {
 
 /*
 Write an automation test that will create a 'user'
@@ -34,7 +33,7 @@ using the "https://petstore.swagger.io/" document
         payload.put("phone","0555555555555");
         payload.put("userStatus",0);
 
-     System.out.println(payload);
+       System.out.println(payload);
 
         Response response = given(spec).body(payload).post("{first}");
 

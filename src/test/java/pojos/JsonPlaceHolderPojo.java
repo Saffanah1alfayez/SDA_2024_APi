@@ -7,7 +7,7 @@ public class JsonPlaceHolderPojo {
 /*
 POJO = plain Old Java Object -----> Perfect template to create instances
 
-    1.  Create private variables for each fiel
+    1.  Create private variables for each file
     2.  Create constructors with parameters and without parameter
     3.  Create Getters and Setter
     4.  Create ToString

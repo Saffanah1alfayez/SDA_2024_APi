@@ -1,13 +1,13 @@
 package Homeworks.day03;
 
-import base_urls.petStoreBaseUrl;
+import base_urls.PetStoreBaseUrl;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertTrue;
 
-public class Hw_10 extends petStoreBaseUrl {
+public class Hw_10 extends PetStoreBaseUrl {
 
     /*
     Using the https://petstore.swagger.io/ document,

@@ -32,7 +32,7 @@ public class Hw_11 {
 
 
         JsonPath json = response.jsonPath();
-        //json.prettyPrint();
+        json.prettyPrint();
 
         System.out.println("--------------------------------------------------------------------------------");
 

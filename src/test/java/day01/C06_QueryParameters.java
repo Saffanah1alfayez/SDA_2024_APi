@@ -19,7 +19,6 @@ public class C06_QueryParameters {
     And
        Among the data, there should be someone whose first name is "John" and last name is "Smith"
 */
-
     @Test
     public void queryParametersTest() {
 

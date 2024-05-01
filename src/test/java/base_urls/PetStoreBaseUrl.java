@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 
-public class petStoreBaseUrl {
+public class PetStoreBaseUrl {
 
     protected RequestSpecification spec ;
 
@@ -15,6 +15,5 @@ public class petStoreBaseUrl {
                 .setBaseUri("https://petstore.swagger.io/v2")
                 .setContentType(ContentType.JSON)
                 .build();
-
     }
 }
